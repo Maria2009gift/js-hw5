@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <button type="button" data-action="open-modal" class="open-modal">Відкрити модалку</button>
+    <div class="backdrop js-backdrop">
+        <div class="modal" id="modal">
+            <h2>Modal window</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, cumque mollitia.
+                Repellat temporibus excepturi, ullam nisi quasi, nam expedita perspiciatis doloremque animi officiis praesentium 
+                porro odio vel aspernatur hic neque necessitatibus eaque rerum non quibusdam error exercitatione eius blanditiis
+                asperiores totam cupiditate, dolorem maiores ex officiis harum corrupti.</p>
+        </div>
+        <button type="button" class="close-button" data-action="close-modal">Закрити модплку</button>
+    </div>
+
+        <FORM>
+            <p>Choose color</p>
+            <label for="" type="radio" name="color" class="red" value="Red" checked>Red</label>
+            <label for="" type="radio" name="color" class="white" value="White">White</label>
+            <label for="" type="radio" name="color" class="green" value="Green">Green</label>
+        </FORM>
+
+        <input type="text" placeholder="Ваше ім'я?" id="name-input">
+        <h1>Привіт, <span id="name-output">незнайомець</span>!</h1>
+
+        <input type="text" id="validation-input" 
+        data-lenght="6" placeholder="Введи 6 символів">
+
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>
