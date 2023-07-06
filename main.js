@@ -6,19 +6,15 @@ const body = document.querySelector("body")
 
 buttonOpen.addEventListener("click", ()=> {
     
-    backdrop.classList.add("abc")
+    backdrop.classList.toggle("abc")
 })
 
-// backdrop.addEventListener("click", ()=> {
+buttonClose.addEventListener("click", ()=> {
 
-//     backdrop.classList.remove("abc")
-// })
+    backdrop.classList.toggle("abc")
+})
 
-// body.addEventListener("click", ()=> {
 
-//     backdrop.clasList.toggle("def")
-
-// })
 
 // =====2=====
 
