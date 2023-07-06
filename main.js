@@ -1,17 +1,17 @@
 
 const buttonOpen = document.querySelector(".open-modal")
-const buttonClose = document.querySelector(".close-modal")
+const buttonClose = document.querySelector(".close-button")
 const backdrop = document.querySelector(".backdrop")
 const body = document.querySelector("body")
 
 buttonOpen.addEventListener("click", ()=> {
     
-    backdrop.classList.toggle("abc")
+    backdrop.classList.toggle("backdrop")
 })
 
 buttonClose.addEventListener("click", ()=> {
 
-    backdrop.classList.toggle("abc")
+    backdrop.classList.toggle("backdrop")
 })
 
 
